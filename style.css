@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	border: 0;
+}
+
+body{
+	font-family: 'AvenirNext','Helvetica Neue',Arial,Helvetica,'sans-serif';
+	background: #FFF;
+}
+
+li{
+	list-style: none;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+nav ul li{
+	margin: 0 20px;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-weight: 530;
+}
+
+.nav-link:hover{
+	text-decoration: underline;
+	text-underline-position:under;
+}
+
+#logo{
+	height: 10%;
+	width: 1;
+}
+
+#real{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: yellow;
+	padding: 28px;
+}
+
+#real div{
+	display: flex;
+	justify-content: space-around;
+	width: 99%;
+	margin: 9px 0;
+}
+
+#end{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 11px;
+	margin-bottom: 21px;
+}
+
+
+#end div{
+	display: flex;
+	margin: 10px 0;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#end div article{
+	background: white;
+	height: 200px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	border-radius: 19px;
+}
+
+.button{
+	text-align: center;
+	text-decoration: none;
+	background: white;
+	cursor: pointer;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	color: black;
+	margin-bottom: 20px;
+	padding: 13px 26px;
+	border-radius: 50px;
+	border-color: white;
+	display: inline-block;
+    font-size: 12px;
+    letter-spacing: .120em;
+    line-height: 1.5899;
+    min-width: 150px;
+    padding: 12px 24px 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heading{
+	font-weight: bold;
+	color: black;
+	margin-bottom: 12px;
+}
+
+footer ul{
+	align-items: center;
+	justify-content: space-around;
+	background-color: rgba(0,0,0,.90);
+	color: white;
+	padding: 12px;
+}
+.footer-nav li {
+  display: inline;
+}
+.footer-nav li{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-weight: 530;
+}
+.link2{
+	text-decoration: none;
+	color: #CFC9C7;
+}
+
+.link:hover{
+	color: black;
+}
+
+h1{
+	font-size: 330%;
+}
+
+.link1{
+	text-decoration: none;
+	color: #CFC9C7;
+}
+
+.link:hover{
+	color: black;
+}
+#language
+{
+	height: 200px;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	border-radius: 19px;
+}
